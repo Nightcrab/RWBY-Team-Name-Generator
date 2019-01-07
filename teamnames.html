@@ -6,13 +6,15 @@
 </head>
 
 <body>
-<form>
+<script type='text/javascript' src='./rwbyteamnames.js'></script>
+<form id="form1">
   name 1: <input type="text" name="1name"><br>
   name 2: <input type="text" name="2name"><br>
   name 3: <input type="text" name="3name"><br>
   name 4: <input type="text" name="4name"><br>
-  <input type="submit" value="Submit">
+  <input type="button" onclick="genNames()" value="Submit">
 </form>
+<p id="results"></p>
 </body>
 
 </html>
