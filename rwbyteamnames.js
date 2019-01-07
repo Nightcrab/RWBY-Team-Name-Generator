@@ -1,4 +1,3 @@
-var initials = ["R","B","Y","U"];
 var requestURL = 'https://raw.githubusercontent.com/Nightcrab/RWBY-Team-Name-Generator/master/colours.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
